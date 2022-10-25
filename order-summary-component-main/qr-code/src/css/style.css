@@ -1,0 +1,47 @@
+body,
+main {
+  font-family: "Outfit", sans-serif;
+  max-width: 100vmax;
+  min-height: 100vh;
+  background: #e0e8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa {
+  max-width: 490px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.qr-code {
+  padding: 10px;
+  border-radius: 25px;
+  width: 280px;
+  height: 280px;
+}
+
+.descricao-caixa {
+  color: black;
+  width: 270px;
+  margin-left: 5px;
+  margin-top: -195px;
+  padding: 22px 10px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.descricao-caixa-dois {
+  color: hsl(220, 15%, 55%);
+  width: 270px;
+  font-size: 15px;
+  margin-top: -20px;
+  padding: 22px 10px;
+  text-align: center;
+  line-height: 1.4;
+}
